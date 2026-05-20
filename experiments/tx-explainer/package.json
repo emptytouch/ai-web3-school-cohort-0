@@ -1,0 +1,13 @@
+{
+  "name": "tx-explainer",
+  "version": "0.1.0",
+  "description": "Transaction Explainer - decode and explain Ethereum transactions",
+  "type": "module",
+  "bin": {
+    "tx-explainer": "./explain.js"
+  },
+  "dependencies": {
+    "ethers": "^6.13.0",
+    "dotenv": "^16.4.0"
+  }
+}
